@@ -1,0 +1,15 @@
+spring:
+    data:
+        redis:
+            port: 6379
+            host: ec2-3-34-145-204.ap-northeast-2.compute.amazonaws.com
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://ec2-43-201-8-97.ap-northeast-2.compute.amazonaws.com:3306/point
+        username: root
+        password: Qwer1234!
+    jpa:
+        hibernate:
+            ddl-auto: update
+        generate-ddl: true
+        show-sql: true
