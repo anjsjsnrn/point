@@ -22,9 +22,6 @@ class Mileage{
     @Column(name = "market")
     lateinit var market: String
 
-    @Column(name = "id")
-    var id: Int? = null
-
     @Column(name = "mileage")
     var mileage: Long = 0
 

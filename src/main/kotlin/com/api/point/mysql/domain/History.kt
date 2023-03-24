@@ -38,8 +38,10 @@ class History {
     var updatedAt: ZonedDateTime? = ZonedDateTime.now()
 
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+    @Transient
     val fromDate: String? = null
 
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+    @Transient
     val toDate: String?? = null
 }
