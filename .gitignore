@@ -35,6 +35,3 @@ out/
 
 ### VS Code ###
 .vscode/
-
-### EC2 ###
-!**/src/main/resources/application.yml
